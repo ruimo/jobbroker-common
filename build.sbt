@@ -13,3 +13,5 @@ publishTo := Some(
 resolvers += "ruimo.com" at "http://static.ruimo.com/release"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
+
+libraryDependencies += "org.specs2" %% "specs2-core" % "4.3.3" % Test
